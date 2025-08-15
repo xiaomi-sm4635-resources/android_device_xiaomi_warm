@@ -1309,7 +1309,6 @@ vendor/lib64/libvideotxr.so
 vendor/etc/media_pitti/video_system_specs.json
 vendor/etc/media_pitti_32go/video_system_specs.json
 vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_c2_audio.xml
 vendor/etc/media_codecs_google_audio.xml
 vendor/etc/media_codecs_google_c2.xml
 vendor/etc/media_codecs_google_c2_audio.xml
