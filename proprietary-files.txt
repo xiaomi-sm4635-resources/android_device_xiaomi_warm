@@ -1228,23 +1228,9 @@ system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # Init
-vendor/bin/init.crda.sh
-vendor/bin/init.mdm.sh
-vendor/bin/init.qcom.class_core.sh
-vendor/bin/init.qcom.coex.sh
-vendor/bin/init.qcom.efs.sync.sh
-vendor/bin/init.qcom.sdio.sh
-vendor/bin/init.qti.cplicense.sh
-vendor/bin/init.qti.kernel.debug-pitti.sh
-vendor/bin/init.qti.kernel.debug.sh
-vendor/bin/init.qti.kernel.early_debug-pitti.sh
-vendor/bin/init.qti.kernel.early_debug.sh
-vendor/bin/qca6234-service.sh
 vendor/etc/init/hw/init.qcom.factory.rc
-vendor/etc/init/hw/init.qti.ufs.rc
 
 # Kernel
-vendor/bin/init.qti.kernel.sh
 vendor/bin/init.qti.write.sh
 vendor/bin/system_dlkm_modprobe.sh
 vendor/bin/vendor_modprobe.sh
