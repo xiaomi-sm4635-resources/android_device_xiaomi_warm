@@ -30,9 +30,6 @@ bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.vcp.controller.enabled=false
 persist.vendor.bt.a2dp.samplerate=true
 
-# Radio
-persist.vendor.radio.enable_temp_dds=true
-
 # Radio (IMS)
 persist.vendor.ims.no_stapa=1
 

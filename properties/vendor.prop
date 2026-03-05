@@ -10,6 +10,16 @@ ro.af.client_heap_size_kbyte=7168
 ro.audio.flinger_standbytime_ms=2000
 ro.audio.monitorRotation=false
 ro.vendor.audio.camera.loopback.support=false
+vendor.audio.cpu.sched=31
+vendor.audio.cpu.sched.cpus=8
+vendor.audio.cpu.sched.cpuset.af=248
+vendor.audio.cpu.sched.cpuset.at=248
+vendor.audio.cpu.sched.cpuset.hb=248
+vendor.audio.cpu.sched.cpuset.he=248
+vendor.audio.cpu.sched.cpuset.hso=248
+vendor.audio.cpu.sched.onlyfast=false
+vendor.audio.rt.mode=23
+vendor.audio.rt.mode.onlyfast=false
 vendor.audio.adm.buffering.ms=2
 vendor.audio.compress_capture.aac=false
 vendor.audio.compress_capture.aac.cut_off_freq=-1
@@ -35,29 +45,15 @@ vendor.audio_hal.period_size=192
 vendor.qc2audio.per_frame.flac.dec.enabled=true
 vendor.qc2audio.suspend.enabled=true
 
-# Audio cpu sched
-vendor.audio.cpu.sched=31
-vendor.audio.cpu.sched.cpus=8
-vendor.audio.cpu.sched.cpuset.af=248
-vendor.audio.cpu.sched.cpuset.at=248
-vendor.audio.cpu.sched.cpuset.hb=248
-vendor.audio.cpu.sched.cpuset.he=248
-vendor.audio.cpu.sched.cpuset.hso=248
-vendor.audio.cpu.sched.onlyfast=false
-vendor.audio.rt.mode=23
-vendor.audio.rt.mode.onlyfast=false
-
 # Bluetooth
 persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
-persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
 persist.vendor.qcom.bluetooth.enable.splita2dp=true
 persist.vendor.qcom.bluetooth.scram.enabled=false
 persist.vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
-vendor.hw.fm.init=0
 
 # Camera
 camera.disable_zsl_mode=1
@@ -176,17 +172,9 @@ ro.hardware.keystore_desede=true
 # Media
 debug.c2.use_dmabufheaps=1
 debug.stagefright.c2inputsurface=-1
-debug.stagefright.ccodec=4
-debug.stagefright.omx_default_rank=0
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-
-# Power
-vendor.power.pasr.enabled=true
-
-# QSPM
-ro.vendor.qspm.enable=true
 
 # Radio
 persist.dbg.volte_avail_ovr=1
@@ -206,6 +194,10 @@ persist.vendor.sensors.support_direct_channel=false
 
 # SOC
 ro.soc.manufacturer=QTI
+ro.soc.model=SM4635
+
+# Volume
+ro.config.vc_call_vol_steps=11
 
 # USB
 sys.usb.mtp.batchcancel=1
