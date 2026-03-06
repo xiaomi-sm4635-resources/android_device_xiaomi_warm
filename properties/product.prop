@@ -8,3 +8,6 @@ persist.vendor.ims.no_stapa=1
 # Miscellaneous
 remote_provisioning.enable_rkpd=true
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# maintainer
+ro.lunaris.maintainer=ZaraKnYu

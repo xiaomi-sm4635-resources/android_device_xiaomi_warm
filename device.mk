@@ -388,5 +388,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
+# Lunaris
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
+
 # Vendor
 $(call inherit-product, vendor/xiaomi/warm/warm-vendor.mk)
